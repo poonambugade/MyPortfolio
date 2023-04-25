@@ -77,28 +77,34 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     padding: 60px 20px;
+    text-align: center; 
   }
   
-  .left-column img {
-    max-width: 250%;
+  .about-container img {
+    max-width: 70%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 80px;
+  
   }
   
-  .right-column h2 {
+  .about-container h2 {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
-    margin-left: 15%;
+    text-align: center;
   }
   
-  .right-column p {
+  .about-container p {
     font-size: 18px;
     line-height: 1.5;
     color: cyan;
-    margin-left: 15%;
     text-align: justify;
   }
+
   #resume {
     background-color: black;
     padding: 20px;
